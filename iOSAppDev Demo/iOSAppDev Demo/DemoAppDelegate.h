@@ -11,5 +11,6 @@
 @interface DemoAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) BOOL kittens;
 
 @end
